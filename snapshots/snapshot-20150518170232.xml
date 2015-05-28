@@ -7,8 +7,8 @@
   <default remote="seL4" revision="master"/>
   
   <project name="camkes-arm-vm.git" path="projects/vm" remote="local" revision="d658c4fad09e62c0590f3e2d450e75712a8ee272" upstream="master">
-    <linkfile dest="Makefile" src="Makefile"/>
-    <linkfile dest="Kbuild" src="Kbuild"/>
+    <linkfile dest="Makefile" src="../../tools/camkes/toplevel.mk"/>
+    <linkfile dest="Kbuild" src="../../tools/camkes/Kbuild"/>
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="README.md" src="../../tools/camkes/docs/index.md"/>
