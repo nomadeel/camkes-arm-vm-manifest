@@ -65,6 +65,7 @@
         <linkfile src="libsel4simple" dest="libs/libsel4simple"/>
         <linkfile src="libsel4simple-default" dest="libs/libsel4simple-default"/>
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
+        <linkfile src="libsel4allocman" dest="libs/libsel4allocman"/>
     </project>
 
     <project name="util_libs.git" path="projects/util_libs">
@@ -74,7 +75,6 @@
         <linkfile src="libutils" dest="libs/libutils"/>
     </project>
 
-    <project name="libsel4allocman.git" path="libs/libsel4allocman"/>
     <project remote="local" name="libsel4dma.git" path="libs/libsel4dma"/>
     <project remote="local" name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm"/>
     <project remote="local" name="libusbdrivers.git" path="libs/libusbdrivers"/>
