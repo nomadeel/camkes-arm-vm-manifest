@@ -75,11 +75,15 @@
         <linkfile src="libutils" dest="libs/libutils"/>
     </project>
 
-    <project remote="local" name="libsel4dma.git" path="libs/libsel4dma"/>
-    <project remote="local" name="libsel4arm-vmm.git" path="libs/libsel4arm-vmm"/>
-    <project remote="local" name="libusbdrivers.git" path="libs/libusbdrivers"/>
+    <project remote="seL4-projects" name="seL4_projects_libs.git" path="projects/seL4_projects_libs">
+        <linkfile src="libsel4dma" dest="libs/libsel4dma"/>
+        <linkfile src="libsel4arm-vmm" dest="libs/libsel4arm-vmm"/>
+        <linkfile src="libsel4vchan" dest="libs/libsel4vchan"/>
+    </project>
 
-    <project remote="seL4-projects" name="libsel4vchan.git" path="libs/libsel4vchan"/>
+    <project remote="seL4-projects" name="projects_libs.git" path="projects/projects_libs">
+        <linkfile src="libusbdrivers" dest="libs/libusbdrivers"/>
+    </project>
 
     <project remote="seL4-projects" name="global-components.git" path="projects/global-components"/>
 
@@ -89,7 +93,6 @@
         <linkfile src="configs" dest="configs"/>
         <linkfile src="apps/vm" dest="apps/vm"/>
     </project>
-
 
 </manifest>
 
