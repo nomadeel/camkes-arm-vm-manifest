@@ -27,10 +27,10 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="seL4-projects" revision="2643c4a24d721243d66249f638b8b157a06cc846" upstream="master">
     <linkfile dest="libs/libusbdrivers" src="libusbdrivers"/>
   </project>
-  <project name="seL4.git" path="kernel" remote="local" revision="9aa705946523ffb47cf83c8581577858fed2cc03" upstream="arm_hyp">
+  <project name="seL4.git" path="kernel" remote="local" revision="380697ab5cf8cfaa5cb330682faa438d8c82ce5d" upstream="arm_hyp">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="b948531b20e6369c480c480f413b1967357d6c9c" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="7773915d4b496605dea27f335f4fb9ed84722fb7" upstream="master">
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
     <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
     <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
