@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="." name="local"/>
   <remote fetch="../seL4" name="seL4"/>
-  <remote fetch="../SEL4PROJ" name="seL4-projects"/>
+  <remote fetch="../seL4-projects" name="seL4-projects"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -17,7 +17,7 @@
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="418ddcc0d5d056cf3fc0bb8311cd8a63ca854838" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="3445c6d691b128782ad9a86b4b76104f21eac89b" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
@@ -27,10 +27,10 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="seL4-projects" revision="2643c4a24d721243d66249f638b8b157a06cc846" upstream="master">
     <linkfile dest="libs/libusbdrivers" src="libusbdrivers"/>
   </project>
-  <project name="seL4.git" path="kernel" remote="local" revision="380697ab5cf8cfaa5cb330682faa438d8c82ce5d" upstream="arm_hyp">
+  <project name="seL4.git" path="kernel" remote="local" revision="d1eb5a12ec78eea6b6fb69c5e37be74db460a681" upstream="arm_hyp">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="7773915d4b496605dea27f335f4fb9ed84722fb7" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="fba25ff422690607861911cfe5cf297052f5b1bd" upstream="master">
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
     <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
     <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
@@ -48,7 +48,7 @@
     <linkfile dest="libs/libsel4arm-vmm" src="libsel4arm-vmm"/>
     <linkfile dest="libs/libsel4vchan" src="libsel4vchan"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="b275350bfb468295de46b0325fb611e856e070a0" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="839aab9bd76c7d694e4b84c31151f1d6258d78ca" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
