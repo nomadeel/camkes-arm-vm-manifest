@@ -84,7 +84,7 @@
 
     <project remote="seL4-projects" name="global-components.git" path="projects/global-components"/>
 
-    <project name="camkes-arm-vm.git" path="projects/vm">
+    <project remote="seL4-projects" name="camkes-arm-vm.git" path="projects/vm">
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
