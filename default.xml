@@ -16,8 +16,8 @@
         fetch="../seL4"
     />
 
-    <remote name="seL4-projects"
-	    fetch="../seL4-projects"
+    <remote name="sel4proj"
+	    fetch="../sel4proj"
     />
 
     <!-- we default to repositories in the seL4 root -->
@@ -72,19 +72,19 @@
         <linkfile src="libutils" dest="libs/libutils"/>
     </project>
 
-    <project remote="seL4-projects" name="seL4_projects_libs.git" path="projects/seL4_projects_libs">
+    <project remote="sel4proj" name="seL4_projects_libs.git" path="projects/seL4_projects_libs">
         <linkfile src="libsel4dma" dest="libs/libsel4dma"/>
         <linkfile src="libsel4arm-vmm" dest="libs/libsel4arm-vmm"/>
         <linkfile src="libsel4vchan" dest="libs/libsel4vchan"/>
     </project>
 
-    <project remote="seL4-projects" name="projects_libs.git" path="projects/projects_libs">
+    <project remote="sel4proj" name="projects_libs.git" path="projects/projects_libs">
         <linkfile src="libusbdrivers" dest="libs/libusbdrivers"/>
     </project>
 
-    <project remote="seL4-projects" name="global-components.git" path="projects/global-components"/>
+    <project remote="sel4proj" name="global-components.git" path="projects/global-components"/>
 
-    <project remote="seL4-projects" name="camkes-arm-vm.git" path="projects/vm">
+    <project remote="sel4proj" name="camkes-arm-vm.git" path="projects/vm">
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="../seL4" name="seL4"/>
-  <remote fetch="../seL4-projects" name="seL4-projects"/>
+  <remote fetch="../sel4proj" name="sel4proj"/>
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-arm-vm.git" path="projects/vm" remote="seL4-projects" revision="f8d5eeb37e08cfa27254259cebcbc01665895e0e" upstream="master">
+  <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="f8d5eeb37e08cfa27254259cebcbc01665895e0e" upstream="master">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="apps/vm" src="apps/vm"/>
@@ -21,9 +21,9 @@
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
-  <project name="global-components.git" path="projects/global-components" remote="seL4-projects" revision="68c1886b5a0899b49ffa5ce6d9f78c4385eef17f" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="68c1886b5a0899b49ffa5ce6d9f78c4385eef17f" upstream="master"/>
   <project name="musllibc.git" path="libs/libmuslc" revision="b5c66eef4a8bb274d7a4b9b5b82bce412224dbf9" upstream="sel4"/>
-  <project name="projects_libs.git" path="projects/projects_libs" remote="seL4-projects" revision="5f3232f45613105c946fbb6c936fc2d7c8822f94" upstream="master">
+  <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="5f3232f45613105c946fbb6c936fc2d7c8822f94" upstream="master">
     <linkfile dest="libs/libusbdrivers" src="libusbdrivers"/>
   </project>
   <project name="seL4.git" path="kernel" revision="5105c089007d82a509d35ffd5a5335aff03da271" upstream="arm_hyp">
@@ -42,7 +42,7 @@
     <linkfile dest="libs/libsel4bench" src="libsel4bench"/>
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
   </project>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="seL4-projects" revision="22fa8123f9bc412139eb74fdb34180e1e4762949" upstream="master">
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="22fa8123f9bc412139eb74fdb34180e1e4762949" upstream="master">
     <linkfile dest="libs/libsel4dma" src="libsel4dma"/>
     <linkfile dest="libs/libsel4arm-vmm" src="libsel4arm-vmm"/>
     <linkfile dest="libs/libsel4vchan" src="libsel4vchan"/>
