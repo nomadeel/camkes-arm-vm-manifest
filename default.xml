@@ -37,7 +37,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="567e233ae72cb9bd5095d0a14ade5c823b945f99" upstream="master">
     <linkfile dest="libs/libusbdrivers" src="libusbdrivers"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="d43b717ef161ac417b696ff2df91a18d0d57ad89" upstream="master">
+  <project name="seL4.git" path="kernel" revision="fa9de32c85e3257a541e97e90e0fe8923d0224c6" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="bf05faa0e21c35792fd36a98558938ce532c92b1" upstream="master">
