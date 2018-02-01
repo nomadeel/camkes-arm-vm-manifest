@@ -37,7 +37,7 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="567e233ae72cb9bd5095d0a14ade5c823b945f99" upstream="master">
     <linkfile dest="libs/libusbdrivers" src="libusbdrivers"/>
   </project>
-  <project name="seL4.git" path="kernel" revision="8fdcc1d91ba7ee1470897ffbbbe9b3eaa87677e3" upstream="master">
+  <project name="seL4.git" path="kernel" revision="33192cd8ae1cacd5d0c346d74f53213e2658ba52" upstream="master">
     <linkfile dest="libs/libsel4" src="libsel4"/>
   </project>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="724576ac6c5b690735b67544e1cc4e5acf2adb8a" upstream="master">
@@ -58,7 +58,7 @@
     <linkfile dest="libs/libsel4arm-vmm" src="libsel4arm-vmm"/>
     <linkfile dest="libs/libsel4vchan" src="libsel4vchan"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="3fe9ce6668c509eeaf2ff8e4ddf5d185194324b3" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="1a07022ece27028ef3559504d36e8ffb3a9bc187" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
