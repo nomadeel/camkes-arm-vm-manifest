@@ -21,7 +21,7 @@
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="apps/vm" src="apps/vm"/>
   </project>
-  <project name="camkes-tool.git" path="tools/camkes" revision="ca89b100d507583af5ee31c38021f67d189df85e" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="8df1d812f07cc2b877b43c6de294277cf1967d94" upstream="master">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
