@@ -27,13 +27,13 @@
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="5737a1c543787e85ae9d0530d1132e7af44ee323" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="23a7eb0642acfaa85cda7ebcec326cdbec11c403" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
   </project>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
-  <project name="musllibc.git" path="libs/libmuslc" revision="f58dacf44a679a2d7c10fbb8d8bc8f58e2123791" upstream="sel4"/>
+  <project name="musllibc.git" path="libs/libmuslc" revision="fad6e9e25c82bb763f0680c73f0eeaab36097ab2" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="defe41172cdc78e99f4bbab0be5f37ab6f0f625d" upstream="master">
     <linkfile dest="libs/libusbdrivers" src="libusbdrivers"/>
   </project>
