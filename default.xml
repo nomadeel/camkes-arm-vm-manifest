@@ -24,12 +24,12 @@
   <project name="capdl.git" path="projects/capdl" revision="b1cf4f2841ec49fdc0c8cce0a48411cbe591fac0" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="0528e281f152f14c31902b283162b29836c88977" upstream="sel4"/>
-  <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="263d39d3d82e589cc2bc0faf43a7639b6b8e89d4" upstream="master"/>
+  <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="7127af645909a85c11c9f09655ae4971d3c6a0fb" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="723aa0ead332660cc7f692f051a8fd9ca4ffc95c" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="7528b23f85dffafcb26a966ad7fa99e0efc13427" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="396542fc8b7d0ab41bf92d8850b3082da80c69e7" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="c81ff8b906abf5581e6120d08b79fc114e631af2" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="70153c95077539135664020bfd47f924b3a290fe" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="8389c851a14e366e70354f96eddced1963affe6c" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="ec4feb2264ea6082df3dd736119b86610d471d61" upstream="master"/>
 </manifest>
