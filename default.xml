@@ -22,7 +22,7 @@
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="b1cf4f2841ec49fdc0c8cce0a48411cbe591fac0" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="8e2ef7eac3e83585888013ab57c44a1b1620a641" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="0cd8f71432619068cc43898c6ad92134bc342ca9" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="0528e281f152f14c31902b283162b29836c88977" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="7127af645909a85c11c9f09655ae4971d3c6a0fb" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="723aa0ead332660cc7f692f051a8fd9ca4ffc95c" upstream="master"/>
@@ -31,5 +31,5 @@
   <project name="seL4_tools.git" path="projects/seL4_tools" revision="6e09cd24771e63ea09c2465afa20073a61a16fb6" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="ec4feb2264ea6082df3dd736119b86610d471d61" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="da4dac1b667da09e0d1c22586d6b9f2ec8dd2065" upstream="master"/>
 </manifest>
