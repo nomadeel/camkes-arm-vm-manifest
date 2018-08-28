@@ -17,11 +17,11 @@
   <default remote="seL4" revision="master"/>
   
   <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="3390e3dbb46530b10e85c4941e8dcf536e54af67" upstream="master"/>
-  <project name="camkes-tool.git" path="tools/camkes" revision="5f8d1a94c18c5c5f4b56ef0ad45a51959a6c1054" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="942a19450d1d75457f75413108b257c15dba0c69" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="185bf176aa0e67d83806f958b00c392ff4b308ff" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="01a7582811d1fbfce920f27bbeff604a58ea6168" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="7c10a8036d03c615984a471a104a295970603f0e" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="e6cd7b1622fdec33dcb341ccbb3a78596559c6d5" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="4be456238d3019387316d0f1d0f77d4e23d4d8ed" upstream="master"/>
