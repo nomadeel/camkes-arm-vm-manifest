@@ -17,7 +17,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="1762485371acb909f21ca0ae2920adee5f2ca630" upstream="master"/>
-  <project name="camkes-tool.git" path="tools/camkes" revision="129c113fc7885e6add12b4397ac4cb3abac8a546" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="32a24891384f72ab93897e129a6cf2bbd4ac8674" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
