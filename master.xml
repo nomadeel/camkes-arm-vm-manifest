@@ -55,5 +55,9 @@
 
     <project remote="sel4proj" name="camkes-arm-vm.git" path="projects/vm"/>
 
+    <!-- This is to use CMake scripts from this project.  Currently, no camkes components
+         from here are being used. -->
+    <project name="camkes-vm.git" path="projects/camkes-vm"/>
+
 </manifest>
 
