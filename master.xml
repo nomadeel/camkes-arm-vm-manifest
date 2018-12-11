@@ -58,6 +58,7 @@
     <!-- This is to use CMake scripts from this project.  Currently, no camkes components
          from here are being used. -->
     <project name="camkes-vm.git" path="projects/camkes-vm"/>
+    <project remote="sel4proj" name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
 
 </manifest>
 
