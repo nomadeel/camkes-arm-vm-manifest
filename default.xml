@@ -17,7 +17,7 @@
   <default remote="seL4" revision="master"/>
   
   <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="185fcab637aff0711b525631005454a13e007174" upstream="master"/>
-  <project name="camkes-tool.git" path="tools/camkes" revision="5277c63b0cf02db63896296066d1cccacaaccf63" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="299a055582e412c4b84bb0ffb7ce3d66ffd5354c" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
@@ -27,10 +27,10 @@
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="9040de2baa36937830950dedde34a8b0fa13942f" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="5d9bbf719789bbe18f2b9218f1521ee6a2f30396" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="90d37dbf620c69fca90614c38ffef84337d17a64" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="d56175ec3ec1c104d8d17d437c312ef1567fca35" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="3aefef1523debdddb11f66b1d663210f7b3811ce" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="7e12eafa5140748a425c7935c23164a7d8dbfeb3" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="39c50e1c39d884ef7446c2167ef3b2dc0393d6a2" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="12a732a96791ad9c423fcdc3d4bc7a63b6640c82" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="a99e2aa528ba541ea95ecc2410df7a8875c776ec" upstream="master"/>
