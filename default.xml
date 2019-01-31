@@ -16,21 +16,21 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="185fcab637aff0711b525631005454a13e007174" upstream="master"/>
+  <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="79e900e0ff8a77dd97a18859ba1bff8c7fef6750" upstream="xu4_vmm_wip"/>
   <project name="camkes-tool.git" path="tools/camkes" revision="2b620b2635ac534e64b82a4c34e65c689cf09da4" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="1ada7eb771f15674ecb9d8d8778d4b0502afb142" upstream="master"/>
+  <project name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="9bac995d75c4b0f4a29dd2f60f25587d99f32d17" upstream="xu4_vmm_wip"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="f88a5ca0762c59491b5b28aa697754fbc626bc2c" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="9a3d2cba197a1436fc504d1eda20a2fe5b4d6306" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="9040de2baa36937830950dedde34a8b0fa13942f" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="3dc0cb0a8d14daa31261b1a609d6093e47a08770" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="6637be827dd07f06a0b516b4af64a379c4526701" upstream="xu4_vmm_wip"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="8b8f9f87a2f3af1197b60c99651c00fdb7467353" upstream="master"/>
-  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="7e12eafa5140748a425c7935c23164a7d8dbfeb3" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="1a55798275d672271acfbd03ed060ee862a8ce42" upstream="master">
+  <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="f9327377f9e2defcefae31c69b542af6e9081be0" upstream="xu4_vmm_wip"/>
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="e8c8f9e1a3c37508fb1c395884a11d2a569e1ef6" upstream="10.1.x-compatible">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="8d891814587df9b2883acafc5ebb28b087776944" upstream="master"/>

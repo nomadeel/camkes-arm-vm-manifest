@@ -28,9 +28,9 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project name="seL4.git" path="kernel"/>
+    <project name="seL4.git" path="kernel" revision="xu4_vmm_wip"/>
 
-    <project name="seL4_tools.git" path="projects/seL4_tools">
+    <project name="seL4_tools.git" path="projects/seL4_tools" revision="10.1.x-compatible">
         <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
 	</project>
 
@@ -47,18 +47,18 @@
 
     <project name="util_libs.git" path="projects/util_libs"/>
 
-    <project remote="sel4proj" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
+    <project remote="sel4proj" name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="xu4_vmm_wip"/>
     
     <project remote="sel4proj" name="projects_libs.git" path="projects/projects_libs"/>
     
     <project remote="sel4proj" name="global-components.git" path="projects/global-components"/>
 
-    <project remote="sel4proj" name="camkes-arm-vm.git" path="projects/vm"/>
+    <project remote="sel4proj" name="camkes-arm-vm.git" path="projects/vm" revision="xu4_vmm_wip"/>
 
     <!-- This is to use CMake scripts from this project.  Currently, no camkes components
          from here are being used. -->
     <project name="camkes-vm.git" path="projects/camkes-vm"/>
-    <project remote="sel4proj" name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
+    <project remote="sel4proj" name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="xu4_vmm_wip"/>
 
 </manifest>
 
