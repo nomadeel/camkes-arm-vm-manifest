@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
-     Copyright 2018, Data61
+     Copyright 2019, Data61
      Commonwealth Scientific and Industrial Research Organisation (CSIRO)
      ABN 41 687 119 230.
 
@@ -14,18 +13,12 @@
 
 <manifest>
 
-    <remote name="seL4"
-        fetch="../seL4"
-    />
+    <remote name="seL4" fetch="../seL4" />
 
-    <remote name="sel4proj"
-	    fetch="../sel4proj"
-    />
+    <remote name="sel4proj" fetch="../sel4proj" />
 
     <!-- we default to repositories in the seL4 root -->
-    <default revision="master"
-        remote="seL4"
-    />
+    <default revision="master" remote="seL4" />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
     <project name="seL4.git" path="kernel"/>
@@ -38,7 +31,7 @@
     <project name="camkes-tool.git" path="tools/camkes">
         <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
         <linkfile dest="camkes_README.md" src="docs/index.md"/>
-	</project>
+    </project>
 
     <project name="capdl.git" path="projects/capdl"/>
 
@@ -51,9 +44,9 @@
     <project name="util_libs.git" path="projects/util_libs"/>
 
     <project remote="sel4proj" name="seL4_projects_libs.git" path="projects/seL4_projects_libs"/>
-    
+
     <project remote="sel4proj" name="projects_libs.git" path="projects/projects_libs"/>
-    
+
     <project remote="sel4proj" name="global-components.git" path="projects/global-components"/>
 
     <project remote="sel4proj" name="camkes-arm-vm.git" path="projects/vm">
@@ -66,4 +59,3 @@
     <project remote="sel4proj" name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
     <project remote="sel4proj" name="camkes-vm-linux.git" path="projects/camkes-vm-linux"/>
 </manifest>
-

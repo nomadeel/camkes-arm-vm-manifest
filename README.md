@@ -1,5 +1,5 @@
 <!--
-     Copyright 2018, Data61
+     Copyright 2019, Data61
      Commonwealth Scientific and Industrial Research Organisation (CSIRO)
      ABN 41 687 119 230.
 
@@ -9,7 +9,6 @@
 
      @TAG(DATA61_BSD)
 -->
-
 camkes-manifest
 ===============
 CAmkES is a component platform that provides support for developing and building static 
