@@ -44,6 +44,8 @@
 
     <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
 
+    <project remote="sel4proj" name="sel4runtime.git" path="projects/sel4runtime"/>
+
     <project name="seL4_libs.git" path="projects/seL4_libs"/>
 
     <project name="util_libs.git" path="projects/util_libs"/>
