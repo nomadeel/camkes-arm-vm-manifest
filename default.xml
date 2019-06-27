@@ -19,7 +19,7 @@
   <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="ff66c2e2b6bdb04994af6e5d3e651a9435a49018" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="camkes-tool.git" path="tools/camkes" revision="874a4dabddad218a11dd8b1f3e92bbb78ad92a73" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="e690a873efc63eba3e62be3b674aa74ae3ad6419" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
@@ -30,10 +30,10 @@
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="1dc07a04a8f4facf90842351b0f476ae84da342e" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="f58bc71f4ae291cf58cc058aa816dd65be9dca7f" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="90656268e6ecc8eb37d3e0b118d3679c75ae9cab" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="841fc260cc6900e3c12f2615bf4bb95bcb1bf8db" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="4fcd22fbb0e6d42ecc25652096984375f0a5b37a" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="aeec198124b12b878a06f430b5e191463e070044" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="29af8acc9d249e6d8697d0c2d0894dab0145e16b" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="d93319cd165510fdbe331950844179ba4a6803ce" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
