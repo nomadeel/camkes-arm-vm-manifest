@@ -30,10 +30,10 @@
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="1dc07a04a8f4facf90842351b0f476ae84da342e" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="f58bc71f4ae291cf58cc058aa816dd65be9dca7f" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="2c81a04b7bd3b71a9e89a01205dfc3c394b883e2" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="affebe295ad26641bbc2dc9f724f49f94df64aa5" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="4ede700fe73f677d5dcbd9f1078a39c78476685d" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="4fcd22fbb0e6d42ecc25652096984375f0a5b37a" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="aeec198124b12b878a06f430b5e191463e070044" upstream="master"/>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="d93319cd165510fdbe331950844179ba4a6803ce" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="ef93a795287b55d9ae426d2cf5f0e9f838b01b6c" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
