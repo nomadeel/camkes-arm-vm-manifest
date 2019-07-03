@@ -51,6 +51,7 @@
 
     <project remote="sel4proj" name="camkes-arm-vm.git" path="projects/vm">
         <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
+        <linkfile dest="settings.cmake" src="settings.cmake"/>
     </project>
 
     <!-- This is to use CMake scripts from this project.  Currently, no camkes components
