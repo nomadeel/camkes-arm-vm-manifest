@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="e1a41872c9a927f1e4d87648dbc6e41bb6f600e4" upstream="master">
+  <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="0cfa5d5f227d5f9a475c1597e3fedd87ce3feaf9" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
