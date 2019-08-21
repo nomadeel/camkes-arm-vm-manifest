@@ -20,7 +20,7 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="camkes-tool.git" path="tools/camkes" revision="ed8b9c66f6ddf1da17bd3f75a73b77198c088179" upstream="master">
+  <project name="camkes-tool.git" path="tools/camkes" revision="77fa05063e2b136dd9a277962d93d4c1cd9372bd" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
