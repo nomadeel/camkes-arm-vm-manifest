@@ -23,13 +23,12 @@
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
     <project name="seL4.git" path="kernel"/>
 
-    <project name="seL4_tools.git" path="projects/seL4_tools">
+    <project name="seL4_tools.git" path="tools/seL4">
         <linkfile dest="griddle" src="cmake-tool/griddle"/>
         <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     </project>
 
-    <project name="camkes-tool.git" path="tools/camkes">
-        <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
+    <project name="camkes-tool.git" path="projects/camkes-tool">
         <linkfile dest="camkes_README.md" src="docs/index.md"/>
     </project>
 
@@ -51,7 +50,6 @@
 
     <project remote="sel4proj" name="camkes-arm-vm.git" path="projects/vm">
         <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
-        <linkfile dest="settings.cmake" src="settings.cmake"/>
     </project>
 
     <!-- This is to use CMake scripts from this project.  Currently, no camkes components
