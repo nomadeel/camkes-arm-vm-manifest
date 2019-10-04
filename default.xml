@@ -19,13 +19,13 @@
   <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="59af04c7c5d6552a75216cc35db43ff6cf98c9b0" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="36343c9bfb00c2d8a25143c6a9a2188eacb395cf" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="d7429b025bfe1b8c770f8d67e97a77ebd7833aa1" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="82bf62ccfdec046dee868fe6de7979dd5367217e" upstream="master"/>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="1a4e6a0cf4014bff182e7c1e7cca994c8770df76" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="57f29aaa0815d863d00a0d9baf36bc65f3b0f374" upstream="master"/>
-  <project name="capdl.git" path="projects/capdl" revision="303d23218d2380536fd5d4f29b415f6ac3fea7ef" upstream="master"/>
+  <project name="capdl.git" path="projects/capdl" revision="6269b8e7548de7dfde8f7c6f6ad506e22a68d3cf" upstream="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="15932d752b151bd77328c7d24a0bb3a0473e1856" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="8a7d481134b685a66c7a25058f6f1b331dd582f7" upstream="master"/>
