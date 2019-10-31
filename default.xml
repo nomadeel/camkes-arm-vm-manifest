@@ -29,7 +29,7 @@
   <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="dcccaa3ab6554e678a6acc273823b722948bc64b" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="f92793e07852f8672fe5a4cd7cd4688f56b889cf" upstream="master"/>
-  <project name="seL4.git" path="kernel" revision="7889580a7dce3bc21758c39da64d461e5dad8ba4" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="e460b934b15e72a49b73f4b48a3092f539e827d5" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d7be11ef70788b8f50232b5568088903077c5fae" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="62afbd9251c73182c0ea4381b38848d363a86802" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="b240d71f253b22ead05b9c704104d88015e15d49" upstream="master">
@@ -37,5 +37,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="697ffd536988f044ad09a309a7394bd1ddfa896d" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="1fed64d11797fc5e2c210921652b95776ad20da6" upstream="master"/>
 </manifest>
