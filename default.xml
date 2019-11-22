@@ -26,7 +26,7 @@
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="1a4e6a0cf4014bff182e7c1e7cca994c8770df76" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="d6f27e3fa710dd55f3a92df4bae94ef60f6e3140" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="717b46848b5da36ded0f363b37e26a63c158aceb" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="98333ac233a452b049f667248344b1539093db47" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="1eaf5aa77bf8e5dbfc2b06d6c5db14b12a5f3906" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="60b20d1d346b1d33cce422ad41822bede72763a8" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="cdbae0b3b27c8a69f1b47074523177e428b0b95a" upstream="master"/>
