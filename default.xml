@@ -19,14 +19,14 @@
   <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="6f8afe3eefc4214a27592a1bf870426ccec1ed70" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="c596fc18621258f25713df1d9fbd4b9d839306a9" upstream="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="e60c95119b3fce70a504f5dde03160d857564da4" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="4facbd0fb3ce97c9b64360826249bad18d82d367" upstream="master"/>
   <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="92274fb4909343bdf242383b5ffa19fe2cf1caa7" upstream="master"/>
   <project name="camkes-vm.git" path="projects/camkes-vm" revision="1c4baaba760ff5544b5372c4c674cfbfff349b7a" upstream="master"/>
   <project name="capdl.git" path="projects/capdl" revision="ff50aee8272fc9aaa43cd1cb9835c179a9c5fe70" upstream="master"/>
-  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="c2d25bc29a063d1d4f688259f3081f6cc7527834" upstream="master"/>
+  <project name="global-components.git" path="projects/global-components" remote="sel4proj" revision="40ac43769ad2ce6a65f0a84d90c5d4fe160d244a" upstream="master"/>
   <project name="musllibc.git" path="projects/musllibc" revision="a0a3af0e3a54fb3985352b4a3160503ecc8c260c" upstream="sel4"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4proj" revision="23bb3e91e398c5ae8b0fbad2aa4e2a9cddaa2da9" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="0e62bc3a81c5f3c74e9615d990eaa95a19800b21" upstream="master"/>
@@ -37,5 +37,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="7b71e82ca6802a712475d0e523e689f190303bd3" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="8eb5e34bc7effc28dbe64c4fd43d164afc6d42fd" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="a46e2dc27c00265a196efe7b6b452c0b999b676d" upstream="master"/>
 </manifest>
