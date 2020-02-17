@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="b4c14ab09d2961827102facc038a593a6c37d14f" upstream="master">
+  <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="2863288a4852e5324b30b0d6fafc1b6f37d3646d" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="6361f7176fd41a14c8b9f7f28505df149ee4f230" upstream="master">
@@ -32,7 +32,7 @@
   <project name="seL4.git" path="kernel" revision="4a09c94b7759338e04fbcd7f1eaca9792d71ab64" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="72efa897a6c8abba8324d2cfedff5e64b5159dc8" upstream="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" remote="sel4proj" revision="ac60baf175960329314f4dcfde8dc70f020a8e11" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="152a68c4a76f51f4f04878200758233c069f387e" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="d64f26b9c5f706a53aa63b72be2468c9bee9df4a" upstream="master">
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
