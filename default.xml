@@ -37,5 +37,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project dest-branch="master" name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="a9e0ae35d8d46e55116d3e7cc5d8e001ef77ed8f" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="43c8e19f514b233d22586224a02e0b855e4cc0bb" upstream="master"/>
 </manifest>
