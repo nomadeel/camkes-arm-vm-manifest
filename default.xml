@@ -16,13 +16,13 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project dest-branch="master" name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="13a13df798aec5718bdec511da716ce5ed9291b6" upstream="master">
+  <project dest-branch="master" name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="abfe36cd7c45fda3c1c66e6203ef0d6cc5ef307d" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="4baa1c6578be6f2ed59aa736b1361e21bb3ecec6" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="48b7003ee8d01ac219f64498b108145344fefd31" upstream="master"/>
+  <project dest-branch="master" name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="c09efd1c6fd000b1b42e7e77b6511df0c928957c" upstream="master"/>
   <project dest-branch="master" name="camkes-vm-linux.git" path="projects/camkes-vm-linux" remote="sel4proj" revision="659a510b22bd9eaf956e905b87fec90f9be714b1" upstream="master"/>
   <project dest-branch="master" name="camkes-vm.git" path="projects/camkes-vm" revision="0aa76f13f35d310c754b497ade3c3e6b7634a295" upstream="master"/>
   <project dest-branch="master" name="capdl.git" path="projects/capdl" revision="b9889293be3e962a960b92f4d646b1462441944e" upstream="master"/>
@@ -37,5 +37,5 @@
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project dest-branch="master" name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="8fddd5e8c1d76ee51b6c0d502e666ee431be32c6" upstream="master"/>
-  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="c0c8ddcfac95a09b50e82cfa88367145d7aeaa5e" upstream="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="0723c601f52bf7c86c56c56d71d8c05c6010710f" upstream="master"/>
 </manifest>
