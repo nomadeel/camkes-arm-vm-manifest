@@ -19,7 +19,7 @@
   <project dest-branch="master" name="camkes-tool.git" path="projects/camkes-tool" revision="fa0d94d4a3021ba23b92b07e764d4a3e8d371e6e" upstream="master">
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
   </project>
-  <project dest-branch="master" name="camkes-vm-apps.git" path="projects/vm-apps" remote="sel4proj" revision="52a1df55980794ce1f87cbc71e474a84701f7ba0" upstream="master">
+  <project dest-branch="master" name="camkes-vm-apps.git" path="projects/vm-apps" remote="sel4proj" revision="65f8af3e0a4468712e4cf74ade65ea12a4307fad" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project dest-branch="master" name="camkes-vm-images.git" path="projects/camkes-vm-images" remote="sel4proj" revision="d7663269afe511138b6b961588a550125870af08" upstream="master"/>
