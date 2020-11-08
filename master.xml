@@ -48,7 +48,7 @@
 
     <project remote="sel4proj" name="global-components.git" path="projects/global-components"/>
 
-    <project remote="sel4proj" name="camkes-vm-examples.git" path="projects/vm-examples">
+    <project name="camkes-vm-examples.git" path="projects/vm-examples">
         <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     </project>
 
