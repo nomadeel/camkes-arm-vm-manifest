@@ -9,8 +9,6 @@
 
      @TAG(DATA61_BSD)
 -->
-* Depreciated: please use https://github.com/SEL4PROJ/camkes-vm-manifest
-
 camkes-manifest
 ===============
 CAmkES is a component platform that provides support for developing and building static 
