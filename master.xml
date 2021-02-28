@@ -7,15 +7,14 @@
 
 <manifest>
 
-    <remote name="seL4" fetch="../seL4" />
 
-    <remote name="sel4proj" fetch="../sel4proj" />
+    <remote name="nomadeel" fetch="../nomadeel/" />
 
     <!-- we default to repositories in the seL4 root -->
-    <default revision="master" remote="seL4" />
+    <default revision="master" remote="nomadeel" />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project name="seL4.git" path="kernel"/>
+    <project name="seL4.git" path="kernel" revision="case_tablet"/>
 
     <project name="seL4_tools.git" path="tools/seL4">
         <linkfile dest="griddle" src="cmake-tool/griddle"/>
@@ -42,13 +41,13 @@
 
     <project name="global-components.git" path="projects/global-components"/>
 
-    <project name="camkes-vm-examples.git" path="projects/vm-examples">
+    <project name="camkes-vm-examples.git" path="projects/vm-examples" remote="nomadeel" revision="case_tablet">
         <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     </project>
 
     <!-- This is to use CMake scripts from this project.  Currently, no camkes components
          from here are being used. -->
-    <project name="camkes-vm.git" path="projects/camkes-vm"/>
-    <project name="camkes-vm-images.git" path="projects/camkes-vm-images"/>
+    <project name="camkes-vm.git" path="projects/camkes-vm" remote="nomadeel" revision="damon/case_tablet"/>
+    <project name="camkes-vm-images.git" path="projects/camkes-vm-images"/ remote="nomadeel" revision="damon/case_tablet">
     <project name="camkes-vm-linux.git" path="projects/camkes-vm-linux"/>
 </manifest>
